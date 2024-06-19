@@ -1,0 +1,15 @@
+{
+  "sugeridos": [
+    { "id": 1, "title": "Estudo dirigido 03", "urlI": ""},
+    { "id": 2, "title": "Curriculum-Vitae", "urlI": ""},
+    { "id": 3, "title": "Estudo dirigido 04", "urlI": ""},
+    { "id": 4, "title": "Trabalho DIW", "urlI": "" },
+    { "id": 5, "title": "Editor de código", "urlI": ""}
+  ],
+  "colegas": [
+    { "id": 166454351, "UrlFoto": "https://avatars.githubusercontent.com/u/166454351?v=4", "nome": "Arthur", "UrlPerfil": "https://github.com/arthurrolla" },
+    { "id": 116366597, "UrlFoto": "https://avatars.githubusercontent.com/u/116366597?v=4", "nome": "João Pedro", "UrlPerfil": "https://github.com/RoninJoao" },
+    { "id": 30595542, "UrlFoto": "https://avatars.githubusercontent.com/u/30595542?v=4", "nome": "Sávio Lage", "UrlPerfil": "https://github.com/Saviollage" },
+    { "id": 161043130, "UrlFoto": "https://avatars.githubusercontent.com/u/161043130?v=4", "nome": "Pedro Barroso", "UrlPerfil": "https://github.com/pedrobarrosodiasdelima" }
+  ]
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Css/style.css">
+    <title>Projeto Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed top">
+                <h1 class="text-light">Vitor Rolla</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navnar-links" aria-expanded="false" aria-label="toggle navegation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#perfil">Seção 1</a>
+                        <a class="nav-item nav-link" href="#repositorio">Seção 2</a>
+                        <a class="nav-item nav-link" href="#titleCarousel">Seção 3</a>
+                        <a class="nav-item nav-link" href="#colegas">Seção 4</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--Perfil-->
+        <div class="container-fluid">
+            <div id="perfil">
+
+            </div>
+
+
+            <div id="repositorio">
+                <div class="container">
+                    <div class="row">
+                        <div class="titulo col-12">
+                            <h2>Repositórios(4)</h2>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <a class="li" href="repositorios/repo.html.html">
+                                        <img src="/Css/outros/linguagemC.jpg" class="card-img-top" alt="imagem 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Estudo dirigido 3</h5>
+                                            <p class="card-text">Estudo da linguagem de programação C, usando diversos
+                                                aspectos interessantes e recursos da linguagem.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a class="li" href="./repositorios/repo3.html">
+                                        <img src="/Css/outros/htmlEcss.jpg" class="card-img-top" alt="imagem 2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Curriculum vitae</h5>
+                                            <p class="card-text">Curriculo básico em linguagem html, utilizando apenas
+                                                html, sem recursos css. Aprendizado básico.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a class="li" href="repositorios/repo.html.html">
+                                        <img src="/Css/outros/linguagemC.jpg" class="card-img-top" alt="Imagem 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Estudo dirigido 4</h5>
+                                            <p class="card-text">Estudo da linguagem de programação C, abordando
+                                                aspectos mais aprofundados que a linguagem fornece</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a class="li" href="./repositorios/repo2.html">
+                                        <img src="/Css/outros/htmlEcss.jpg" class="card-img-top" alt="Imagem 2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Trabalho diw</h5>
+                                            <p class="card-text">Trabalho de desenvolvimento web, usando recursos html,
+                                                css, bootstrap. Site que está em aberto
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        <!--Carousel-->
+        <div id="titleCarousel">
+            <div class="container">
+                <div class="row">
+                    <div class="titulo col-12">
+                        <h2>
+                            Conteúdo sugerido
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/Css/carousel/Estudo03.png" class="d-block" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Estudo Dirigido 03</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Css/carousel/Curriculum.png" class="d-block" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Curriculum vitae</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Css/carousel/Estudo04.png" class="d-block" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Estudo Dirigido 04</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Css/carousel/TrabalhoDIW.png" class="d-block" alt="Imagem 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Trabalho D.I.W</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Css/carousel/Editor.png" class="d-block" alt="Imagem 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Editor de Código</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+        <div id="colegas">
+
+        </div>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+<script src="/Js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
