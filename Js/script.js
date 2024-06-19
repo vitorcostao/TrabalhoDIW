@@ -39,7 +39,6 @@ getApiGitHub();
 
 
 /*Colegas Site Pessoal*/
-
 const colegas = document.querySelector('#colegas');
 
 var dados
@@ -85,6 +84,66 @@ function getJSONData(){
 }
 
 getJSONData();
+
+/*Carousel Site Pessoal*/
+
+const Carousel = document.querySelector('.carousel-inner');
+let CarouselData;
+
+function getCarouselDataApi(){
+    fetch('http://localhost:3000/sugeridos')
+    .then(async res => {
+        if (!res.ok) {
+            throw new Error(res.status);
+        }
+
+        CarouselData = await res.json();
+
+        let project = document.createElement('div')
+        console.log(CarouselData)
+
+        project.innerHTML = `      
+                <div class="carousel-item active">
+                    <img src="${CarouselData[0].urlI}" class="d-block" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${CarouselData[0].title}</h5>
+                        <p> <a href="${CarouselData[0].urlC}" class="text-white">${CarouselData[0].descricao}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="${CarouselData[1].urlI}" class="d-block" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${CarouselData[1].title}</h5>
+                        <p> <a href="${CarouselData[1].urlC}" class="text-white">${CarouselData[1].descricao}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="${CarouselData[2].urlI}" class="d-block" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${CarouselData[2].title}</h5>
+                        <p> <a href="${CarouselData[2].urlC}" class="text-white">${CarouselData[2].descricao}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="${CarouselData[3].urlI}" class="d-block" alt="Imagem 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${CarouselData[3].title}</h5>
+                        <p> <a href="${CarouselData[3].urlC}" class="text-white">${CarouselData[3].descricao}</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="${CarouselData[4].urlI}" class="d-block" alt="Imagem 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${CarouselData[4].title}</h5>
+                        <p> <a href="${CarouselData[4].urlC}" class="text-white">${CarouselData[4].descricao}</a></p>
+                    </div>
+                </div>`;
+
+            Carousel.appendChild(project);
+    })
+}
+
+getCarouselDataApi();
 
 
 

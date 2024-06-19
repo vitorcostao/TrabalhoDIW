@@ -1,10 +1,10 @@
 {
   "sugeridos": [
-    { "id": 1, "title": "Estudo dirigido 03", "urlI": "https://images.app.goo.gl/PPyw7H74EVk1mGcH8"},
-    { "id": 2, "title": "Curriculum-Vitae", "urlI": "https://images.app.goo.gl/5GzrsPraVSgJg78MA"},
-    { "id": 3, "title": "Estudo dirigido 04", "urlI": "https://images.app.goo.gl/PPyw7H74EVk1mGcH8"},
-    { "id": 4, "title": "Trabalho DIW", "urlI": "https://images.app.goo.gl/5GzrsPraVSgJg78MA" },
-    { "id": 5, "title": "Editor de código", "urlI": "https://images.app.goo.gl/woVGwGH4L8arWYhV8"}
+    { "id": 1, "title": "Estudo dirigido 03", "descricao": "Série de exercícios em linguagem C", "urlC": "https://github.com/vitorcostao/Estudos-dirigidos" ,"urlI": "https://lh3.googleusercontent.com/pw/AP1GczOO71RpElZLmFMYeUJlzr_oZNTH8udKMe0HPbYs0Q2VYUD7Y1oVUsY-XnhegQDqOKYFm50e5AK8JzgqSzLeWAxtjS2dkhWmvA6VMi8n5ojGT6YljqVFepIY0Z3tZXTGk-QXsS-gQzPq_PWWlJ1n1vQm=w1638-h869-s-no-gm?authuser=0"},
+    { "id": 2, "title": "Curriculum-Vitae", "descricao": "Currículo teste para treinar html e css" , "urlC": "https://github.com/vitorcostao/Curriculum-Vitae" ,"urlI": "https://lh3.googleusercontent.com/pw/AP1GczNEY6pL6_LKpIsFOaODf75GiYxIaYMdG7U3lDGluP2lvda0mJADT3e7CIPdFdIi-gsTkzTiNzX4zjXWWXVhf7jbIaIfcY3z3dtGrEYGOZiAsoEDfd_CN_vhSzafjK9rdxxPw_nOKLuYoejmn28N_5Qx=w1641-h869-s-no-gm?authuser=0"},
+    { "id": 3, "title": "Estudo dirigido 04", "descricao": "Série de exercícios em linguagem C com nivel mais avançado" , "urlC": "https://github.com/vitorcostao/Estudos-dirigidos" ,"urlI": "https://lh3.googleusercontent.com/pw/AP1GczM1oQZCCBhXQgCvVoEszloW-oP57rqKWuagN4c0Ek8_fINAB4yLXuAOLTGBrslCcPUgUxDdqC0mG23UVl5SCcb53HJUGARmzRIKM0IedbHgfV5wg5fvRe1g_DJnskU5zxuo7AE8G7O8uCiIiTLiO012=w1639-h869-s-no-gm?authuser=0"},
+    { "id": 4, "title": "Trabalho DIW", "descricao": "Trabalho de desenvolvimento web proposto pela faculdade" , "urlC": "https://github.com/vitorcostao/TrabalhoDIW" ,"urlI": "https://lh3.googleusercontent.com/pw/AP1GczOjvwJQiTE9o3MhD9e4DdsOGB_x_oGIvavuO2O7PrSTXpt1FwAUZHqPdOKmppozvlxHzyB9lZlZIInc-s32KTBXyGMrVcvlXark25aqY9oDiM0a1woX05Qf6LmJwc3TOCXxL7Le__uGS0buyG5AdVk2=w1641-h869-s-no-gm?authuser=0" },
+    { "id": 5, "title": "Editor de código", "descricao": "Editor de código utilizado nas aplicações" , "urlC": "https://code.visualstudio.com/" ,"urlI": "https://lh3.googleusercontent.com/pw/AP1GczNO6Gewck-XIp_3SUhyAmD-GxOBm5mFL2cyiPfkgVl3kbDfygFPT9ArZgbwTw-Tw6ZidgC8Zf2Jpm7fm1BviCP1tBREOHNLDLqUQ4ufvUe-DKqKoAFAqyQnrnSHo7eHlcePU1EZyGC0CKoa9fx5ZBj0=w1633-h869-s-no-gm?authuser=0"}
   ],
   "colegas": [
     { "id": 166454351, "UrlFoto": "https://avatars.githubusercontent.com/u/166454351?v=4", "nome": "Arthur", "UrlPerfil": "https://github.com/arthurrolla" },
