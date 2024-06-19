@@ -1,10 +1,10 @@
 {
   "sugeridos": [
-    { "id": 1, "title": "Estudo dirigido 03", "urlI": ""},
-    { "id": 2, "title": "Curriculum-Vitae", "urlI": ""},
-    { "id": 3, "title": "Estudo dirigido 04", "urlI": ""},
-    { "id": 4, "title": "Trabalho DIW", "urlI": "" },
-    { "id": 5, "title": "Editor de código", "urlI": ""}
+    { "id": 1, "title": "Estudo dirigido 03", "urlI": "https://images.app.goo.gl/PPyw7H74EVk1mGcH8"},
+    { "id": 2, "title": "Curriculum-Vitae", "urlI": "https://images.app.goo.gl/5GzrsPraVSgJg78MA"},
+    { "id": 3, "title": "Estudo dirigido 04", "urlI": "https://images.app.goo.gl/PPyw7H74EVk1mGcH8"},
+    { "id": 4, "title": "Trabalho DIW", "urlI": "https://images.app.goo.gl/5GzrsPraVSgJg78MA" },
+    { "id": 5, "title": "Editor de código", "urlI": "https://images.app.goo.gl/woVGwGH4L8arWYhV8"}
   ],
   "colegas": [
     { "id": 166454351, "UrlFoto": "https://avatars.githubusercontent.com/u/166454351?v=4", "nome": "Arthur", "UrlPerfil": "https://github.com/arthurrolla" },
